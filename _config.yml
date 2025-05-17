@@ -3,6 +3,7 @@ name: 'KAFTA'
 description: 'Korean American Food Technologists Association'
 logo: './assets/images/logo.png'
 favicon: './assets/images/favicon.ico'
+baseurl: '/KAFTA-USA.github.io'
 
 include: ["_pages"]
 permalink: /:title/
