@@ -2,7 +2,7 @@ title: "KAFTA"
 email: wowthemesnet@gmail.com
 timezone: UTC
 permalink: "/:title/"
-logo: '/assets/images/logo.png'
+logo: '/assets/images/logo.jpg'
 favicon: '/assets/images/favicon.ico'
 author: Sal
 paginate: 30
