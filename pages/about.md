@@ -5,7 +5,7 @@ permalink: "/about/"
 #image: assets/images/logo.jpg
 ---
 
-KAFTA는 약 40년전에 미국에서 식품을 공부하시던 뜻있는 식품과학자분들에 의해서 설립이 되었습니다. 1976년도에 손정현 초대회장님을 시작으로 KAFTA의 역사가 시작되었고 현재까지도 많은 원로 회원님께서 활발하게 활동하고 계시며 후학들을 이끌어 주고 계십니다.
+<span style="font-family: 'Comic Sans MS';">KAFTA는 약 40년전에 미국에서 식품을 공부하시던 뜻있는 식품과학자분들에 의해서 설립이 되었습니다. 1976년도에 손정현 초대회장님을 시작으로 KAFTA의 역사가 시작되었고 현재까지도 많은 원로 회원님께서 활발하게 활동하고 계시며 후학들을 이끌어 주고 계십니다.</span>
  
 현재는 한국식품과학회의 북미지부로서 한국에 뿌리를 두고 있으며 미국에서는 한인과학단체중 가장 큰 규모를 가지고 있는 KSEA (Korean American Scientists and Engineers Association)에 APS (Affiliated Professional Society)로서 활동하고 있습니다.
 
