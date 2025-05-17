@@ -2,7 +2,7 @@ title: "KAFTA"
 email: koreanfoodtechnologist@gmail.com
 timezone: UTC
 permalink: "/:title/"
-logo: '/assets/images/1.jpg'
+logo: '/assets/images/logo.jpg'
 favicon: '/assets/images/favicon.ico'
 author: Minho Kim
 paginate: 30
