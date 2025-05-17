@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: "/about/"
-#image: assets/images/screenshot.png
+image: assets/images/logo.jpg
 ---
 
 KAFTA는 약 40년전에 미국에서 식품을 공부하시던 뜻있는 식품과학자분들에 의해서 설립이 되었습니다. 1976년도에 손정현 초대회장님을 시작으로 KAFTA의 역사가 시작되었고 현재까지도 많은 원로 회원님께서 활발하게 활동하고 계시며 후학들을 이끌어 주고 계십니다.
