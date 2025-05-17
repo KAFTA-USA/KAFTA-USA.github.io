@@ -4,7 +4,7 @@ description: 'Korean American Food Technologists Association'
 logo: './assets/images/logo.png'
 favicon: './assets/images/favicon.ico'
 
-include: ["./_pages"]
+include: ["_pages"]
 permalink: /:title/
 
 # Plugins
@@ -18,7 +18,7 @@ authors:
     sal:
       name:           Sal
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
+      avatar:         ./assets/images/avatar1.jpg
       bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
       email:          wowthemesnet@gmail.com
       twitter:        https://twitter.com/wowthemesnet
@@ -26,7 +26,7 @@ authors:
     jane:
       name:           Jane
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
+      avatar:         ./assets/images/avatar2.jpg
       bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
       email:          fakemail@gmail.com
       twitter:        https://twitter.com/wowthemesnet
@@ -40,7 +40,7 @@ defaults:
     values:
       layout: post
       author: sal
-      avatar: /assets/images/avatar1.jpg
+      avatar: ./assets/images/avatar1.jpg
       
   # all pages
   - scope:
