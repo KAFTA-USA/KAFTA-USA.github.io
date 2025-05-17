@@ -1,14 +1,10 @@
 # Site
 name: 'KAFTA'
 description: 'Korean American Food Technologists Association'
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
-baseurl: '/'
-disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+logo: './assets/images/logo.png'
+favicon: './assets/images/favicon.ico'
 
-include: ["_pages"]
+include: ["./_pages"]
 permalink: /:title/
 
 # Plugins
@@ -40,7 +36,7 @@ defaults:
 
   # all posts
   - scope:
-      path: "_posts"
+      path: "./_posts"
     values:
       layout: post
       author: sal
@@ -48,7 +44,7 @@ defaults:
       
   # all pages
   - scope:
-      path: "_pages"
+      path: "./_pages"
     values:
       layout: page
       
