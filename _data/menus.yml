@@ -10,6 +10,9 @@ topmenu:
 - title: Members
   url: "members/"
 
+- title: Annual Meetings
+  url: "meetings/"
+
 - title: Contact
   url: "contact/"
   class: "ml-2 btn btn-dark text-white px-3"
