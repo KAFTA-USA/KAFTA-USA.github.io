@@ -2,7 +2,65 @@
 layout: page
 title: Members
 permalink: "/members/"
-image: assets/images/empty_space.png
+image: assets/images/empty_sp.png
 ---
 
-<span style="font-family: 'Nanum Gothic', sans-serif; font-size: 30px;">KAFTA 임원진</span>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Members</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .member-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .member-card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 20px;
+    }
+    .member-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    .member-name {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .member-role {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Board Members</h1>
+  <div class="member-grid">
+    <div class="member-card">
+      <img src="assets/images/members/janghokim.avif">
+      <div class="member-name">Dr. Jangho Kim</div>
+      <div class="member-role">President</div>
+    </div>
+    <!-- 추가 구성원은 여기 아래에 계속 추가하면 됩니다 -->
+  </div>
+</body>
+</html>
