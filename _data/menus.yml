@@ -13,6 +13,9 @@ topmenu:
 - title: Annual Meetings
   url: "meetings/"
 
+- title: Research Competition
+  url: "research/"
+
 - title: Contact
   url: "contact/"
   class: "ml-2 btn btn-dark text-white px-3"
