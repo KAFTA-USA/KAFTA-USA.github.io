@@ -4,15 +4,11 @@ title: Annual Meetings
 permalink: "/meetings/"
 ---
 
-<!-- Featured
-================================================== -->
+{% assign meeting_posts = site.posts | where_exp: "post", "post.categories contains 'Annual Meeting'" %}
 <section class="row">
-  {% for post in site.posts %}
-      {% if post.featured == true %}
-          <div class="col-md-4 mb-5">
-            {% include postbox.html post=post %}
-          </div>
-      {% endif %}
+  {% for post in meeting_posts %}
+    <div class="col-md-4 mb-5">
+      {% include postbox.html post=post %}
+    </div>
   {% endfor %}
-  </div>
 </section>
