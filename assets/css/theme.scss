@@ -139,31 +139,31 @@ small, .small {
     padding: 5rem;
   }
   
+.hero-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+.hero img.intro {
+  max-width: 100%;
+  height: auto;
+}
+  
+@media (max-width: 768px) {
+  .hero {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
   .hero-row {
-    display: flex;
-    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
   }
   
-  .hero img.intro {
-    max-width: 100%;
-    height: auto;
+  .hero h1 {
+    font-size: 1.75em;
   }
-  
-  @media (max-width: 768px) {
-    .hero {
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-  
-    .hero-row {
-      flex-direction: column-reverse;
-      align-items: center;
-    }
-  
-    .hero h1 {
-      font-size: 1.75em;
-    }
-  }  
+}  
 
 @media only screen and (max-width: 1024px) {
     .page-header.big {
