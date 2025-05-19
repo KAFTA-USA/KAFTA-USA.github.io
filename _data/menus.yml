@@ -16,6 +16,9 @@ topmenu:
 - title: Research Competition
   url: "research/"
 
+- title: Students/Young Professionals
+  url: "students/"
+  
 - title: Contact
   url: "contact/"
   class: "ml-2 btn btn-dark text-white px-3"
