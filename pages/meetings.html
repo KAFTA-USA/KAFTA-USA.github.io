@@ -10,7 +10,7 @@ permalink: "/meetings/"
   {% for post in site.posts %}
       {% if post.featured == true %}
           <div class="col-md-4 mb-5">
-          {% include postbox.html %}
+            {% include postbox.html post=post %}
           </div>
       {% endif %}
   {% endfor %}
