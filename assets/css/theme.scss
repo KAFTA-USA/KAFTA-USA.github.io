@@ -138,6 +138,21 @@ small, .small {
     background: #c5ebf1;
     padding: 5rem 5rem;
 }
+@media (max-width: 768px) {
+    .hero {
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+  
+    .hero .row {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  
+    .hero h1 {
+      font-size: 1.75em;
+    }
+}
 
 @media only screen and (max-width: 1024px) {
     .page-header.big {
