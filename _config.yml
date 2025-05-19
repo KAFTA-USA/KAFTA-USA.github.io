@@ -21,10 +21,6 @@ sass:
   style: :compressed
 ganalytics: UA-113961478-1
 
-collections:
-  mypages:
-    output: true
-
 # Authors
 authors:
   Minho:
