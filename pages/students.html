@@ -1,6 +1,185 @@
----
-layout: page
-title: Student
-permalink: "/students/"
-image: assets/images/empty_sp.png
----
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<style>
+    /* GitHub 스타일 테이블 CSS */
+    .meeting-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .meeting-table th, .meeting-table td {
+        padding: 8px 12px;
+        border: 1px solid #d0d7de;
+    }
+    .meeting-table th {
+        background-color: #f6f8fa;
+        font-weight: 600;
+        text-align: left;
+    }
+    .meeting-table tr:nth-child(even) {
+        background-color: #f6f8fa;
+    }
+    .meeting-table tr:hover {
+        background-color: #f2f4f7;
+    }
+    .title-cell {
+        font-weight: 500;
+        color: #0969da; /* 링크 느낌의 파란색 */
+    }
+</style>
+</head>
+<body>
+
+<h3>Student meeting history table</h3>
+
+<table class="meeting-table">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Title</th>
+            <th>Speaker</th>
+            <th>Affiliation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>09/30/21</td>
+            <td class="title-cell">How and when to apply for post-doc positions?</td>
+            <td>이지혜 박사님</td>
+            <td>NIH</td>
+        </tr>
+        <tr>
+            <td>10/28/21</td>
+            <td class="title-cell">Metabolomics Approach in Understanding Formation of Key Mango Flavors</td>
+            <td>서준혁 박사님</td>
+            <td>University</td>
+        </tr>
+        <tr>
+            <td>01/27/22</td>
+            <td class="title-cell">Prediction of Salmonella contamination in surface water samples using microbiome data with machine learning classifiers</td>
+            <td>정태중</td>
+            <td>Penn State</td>
+        </tr>
+        <tr>
+            <td>02/24/22</td>
+            <td class="title-cell">Development of functional food using invasive plant</td>
+            <td>안진표</td>
+            <td>University</td>
+        </tr>
+        <tr>
+            <td>03/17/22</td>
+            <td class="title-cell">Work, Life, and Career of a Food Scientist in the Food Industry</td>
+            <td>김영목 박사님</td>
+            <td>Finlays</td>
+        </tr>
+        <tr>
+            <td>04/21/22</td>
+            <td class="title-cell">Current research program in the Division of Microbiology, National Center for Toxicological Research, FDA</td>
+            <td>성기돈 박사님</td>
+            <td>FDA</td>
+        </tr>
+        <tr>
+            <td>06/23/22</td>
+            <td class="title-cell">-</td>
+            <td>박재원 교수님</td>
+            <td>Oregon State</td>
+        </tr>
+        <tr>
+            <td>3/2/2023</td>
+            <td class="title-cell">From International Student to Food Industry: The Lessons & Evolving Personality</td>
+            <td>Ali</td>
+            <td>ADM</td>
+        </tr>
+        <tr>
+            <td>4/6/2023</td>
+            <td class="title-cell">Development and evaluation of novel nanopore techniques for norovirus detection and subtyping</td>
+            <td>김민지</td>
+            <td>UMass Amherst</td>
+        </tr>
+        <tr>
+            <td>6/22/2023</td>
+            <td class="title-cell">Targeted and Untargeted Analysis of Flavor Compounds in Kombucha Fermented with HLB-tolerance Sugar Belle and Unveiling Their Relationship with Sensory Quality and Bioactivities Using Statistical and Machine Learning Approaches</td>
+            <td>김동주</td>
+            <td>University</td>
+        </tr>
+        <tr>
+            <td>10/4/2023</td>
+            <td class="title-cell">Comprehensive metagenomic analysis of stress-resistant and –sensitive Listeria monocytogenes</td>
+            <td>홍현희</td>
+            <td>Oregon State</td>
+        </tr>
+        <tr>
+            <td>11/16/2023</td>
+            <td class="title-cell">Current Industrial Status on Plant-based and Cultured Meat. 식물성 대체육과 배양육의 산업화 현황</td>
+            <td>Dr. Jung H. Han</td>
+            <td>Chief Technology Officer</td>
+        </tr>
+        <tr>
+            <td>1/24/2024</td>
+            <td class="title-cell">Tips for Professional Interview (Gov & Academia)</td>
+            <td>황홍식 박사님/서준혁 교수님</td>
+            <td>USDA-ARS</td>
+        </tr>
+        <tr>
+            <td>4/18/2024</td>
+            <td class="title-cell">How to survive in graduate school in US / 미국 대학원에서 성공적으로 살아남기</td>
+            <td>박시홍 교수님</td>
+            <td>Oregon State</td>
+        </tr>
+        <tr>
+            <td>8/28/2024</td>
+            <td class="title-cell">Career in Government: Public Health Laboratory in MN state Department of Health</td>
+            <td>한지선 박사님</td>
+            <td>Minnesota Dept. of Health</td>
+        </tr>
+        <tr>
+            <td>10/24/2024</td>
+            <td class="title-cell">Careers in the food safety</td>
+            <td>Dr. Gustavo Reyes & Dr. Ruben Chavez</td>
+            <td>Western Growers</td>
+        </tr>
+        <tr>
+            <td>1/30/2025</td>
+            <td class="title-cell">새 멤버 대상 KAFTA 소개 및 홍보</td>
+            <td>김민호</td>
+            <td>ORISE</td>
+        </tr>
+        <tr>
+            <td>4/3/2025</td>
+            <td class="title-cell">미 영주권 신청과정 소개 및 경험 공유</td>
+            <td>김민호</td>
+            <td>ORISE</td>
+        </tr>
+        <tr>
+            <td>6/19/2025</td>
+            <td class="title-cell">USDA-ARS career Q&A session</td>
+            <td>김혜선 박사님</td>
+            <td>USDA-ARS</td>
+        </tr>
+        <tr>
+            <td>8/27/2025</td>
+            <td class="title-cell">Applying machine learning to classify the type of fluid milk spoilage</td>
+            <td>정연진</td>
+            <td>Cornell University</td>
+        </tr>
+        <tr>
+            <td>10/9/2025</td>
+            <td class="title-cell">Metabolomics in Georgia's food systems</td>
+            <td>이남희</td>
+            <td>University</td>
+        </tr>
+        <tr>
+            <td>11/20/2025</td>
+            <td class="title-cell">A guide to careers in product development</td>
+            <td>Saumya Agarwal</td>
+            <td>Rich Products</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
