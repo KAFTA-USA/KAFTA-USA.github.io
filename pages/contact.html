@@ -6,16 +6,24 @@ comments: false
 image: assets/images/empty_sp.png
 ---
 
-<form action="https://formspree.io/{{site.email}}" method="POST">    
-<!-- <p class="mb-4">Thank you for your interest in getting in touch with us. Please send your message here. We will reply as soon as possible!</p> -->
-<div class="form-group row">
-<div class="col-md-6">
-<input class="form-control" type="text" name="name" placeholder="Name*" required>
+<div class="contact-form-wrapper" style="position: relative; overflow: hidden; width: 100%; padding-top: 100%;">
+  <iframe 
+    src="https://forms.gle/vch9gVRGfg77Ndic6" 
+    style="position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%; border: none;" 
+    frameborder="0" 
+    marginheight="0" 
+    marginwidth="0">
+    Loading..
+  </iframe>
 </div>
-<div class="col-md-6">
-<input class="form-control" type="email" name="_replyto" placeholder="E-mail Address*" required>
-</div>
-</div>
-<textarea rows="8" class="form-control mb-3" name="message" placeholder="Message*" required></textarea>    
-<input class="btn btn-dark" type="submit" value="Send">
-</form>
+
+<style>
+  .contact-form-wrapper {
+    padding-top: 1200px !important;
+  }
+  @media (max-width: 768px) {
+    .contact-form-wrapper {
+      padding-top: 1500px !important; 
+    }
+  }
+</style>
