@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Students
-permalink: "/students/"
+title: Young Scholar
+permalink: "/Young Scholar/"
 image: assets/images/empty_sp.png
 ---
 
@@ -105,3 +105,23 @@ image: assets/images/empty_sp.png
         </table>
     </div>
 </div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const tbody = document.querySelector(".table-wrapper table tbody");
+    const rows = Array.from(tbody.querySelectorAll("tr"));
+
+    function parseDate(str) {
+        const [mm, dd, yy] = str.trim().split("/").map(Number);
+        const fullYear = yy < 100 ? 2000 + yy : yy;
+        return fullYear * 10000 + mm * 100 + dd;
+    }
+
+    rows.sort((a, b) => {
+        const dateA = parseDate(a.children[0].textContent);
+        const dateB = parseDate(b.children[0].textContent);
+        return dateB - dateA;
+    });
+
+    rows.forEach(row => tbody.appendChild(row));
+});
+</script>
